@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiénes Somos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        header {
+            background: #ffffff;
+            color: #333;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #e8491d 4px solid;
+        }
+
+        header a {
+            color: #333;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+
+        header ul {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            overflow: hidden;
+        }
+
+        header li {
+            float: left;
+            display: inline;
+            padding: 0 20px 0 20px;
+            position: relative;
+        }
+
+        header #branding {
+            float: left;
+        }
+
+        header #branding h1 {
+            margin: 0;
+        }
+
+        header .highlight, header a:hover {
+            color: #e8491d;
+        }
+
+        header a:active {
+            color: #333;
+        }
+
+        main {
+            padding: 20px 0;
+        }
+
+        .team-member {
+            width: 30%;
+            float: left;
+            margin: 2%;
+            background: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .team-member img {
+            width: 100%;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        .team-member h3 {
+            margin: 10px 0;
+        }
+
+        .team-member p {
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">Nombre de tu Sitio</span></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="about.html">Acerca de Nosotros</a></li>
+                    <li class="current"><a href="quienessomos.html">Quiénes Somos</a></li>
+                    <li><a href="services.html">Servicios</a></li>
+                    <li><a href="contact.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="team-member">
+                <img src="url_imagen_mauro.jpg" alt="Mauro Hornus">
+                <h3>Mauro Hornus</h3>
+                <p>36 años</p>
+            </div>
+
+            <div class="team-member">
+                <img src="url_imagen_enzo.jpg" alt="Enzo">
+                <h3>Enzo</h3>
+                <p>40 años</p>
+            </div>
+
+            <!-- Agrega aquí los otros 4 integrantes con sus imágenes y detalles -->
+
+        </div>
+    </main>
+
+</body>
+</html>
